@@ -1,0 +1,66 @@
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #6d6b75fa;
+    --bs-btn-border-color: #6d6b75fa;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: rgba(95, 93, 101, 0.98);
+    --bs-btn-hover-border-color: rgba(80, 78, 84, 0.98);
+    --bs-btn-focus-shadow-rgb: 97, 149, 239;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: rgba(80, 78, 84, 0.98);
+    --bs-btn-active-border-color: rgba(80, 78, 84, 0.98);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #6d6b75fa;
+    --bs-btn-disabled-border-color: #6d6b75fa;
+}
+
+.bg-primary {
+    background-color: rgba(0, 0, 0, 0.825) !important;
+}
+
+body {
+    margin: 0;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+nav * {
+    color: white;
+}
+
+h6 {
+    line-height: 130%;
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+
+@media only screen and (max-width: 768px) {
+    p {
+        font-size: 0.9rem;
+    }
+
+    h6 {
+        font-size: 0.95rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .btn-lg {
+        font-size: 1rem;
+    }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type='number'] {
+    -moz-appearance: textfield;
+}
